@@ -1,0 +1,6 @@
+body {
+    background-color: #050505;
+}
+.neon-text {
+    text-shadow: 0 0 10px rgba(0, 255, 102, 0.5);
+        }

@@ -7,27 +7,8 @@
     
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        aura: {
-                            green: '#00ff66',
-                        }
-                    }
-                }
-            }
-        }
-    </script>
-    <style>
-        body {
-            background-color: #050505;
-        }
-        .neon-text {
-            text-shadow: 0 0 10px rgba(0, 255, 102, 0.5);
-        }
-    </style>
+    <script src="scripts/script.js"></script>
+    <link rel="stylesheet" src="styles/style.css">
 </head>
 <body class="text-gray-300 min-h-screen flex flex-col selection:bg-aura-green selection:text-black bg-[#050505] relative overflow-x-hidden font-sans">
 
@@ -44,9 +25,9 @@
             </div>
             
             <nav class="hidden md:flex gap-8 items-center">
-                <a href="#" class="text-sm font-medium text-white hover:text-aura-green transition-colors">Accueil</a>
-                <a href="#propos" class="text-sm font-medium text-gray-400 hover:text-aura-green transition-colors">À propos</a>
-                <a href="#contact" class="text-sm font-medium text-gray-400 hover:text-aura-green transition-colors">Nous contacter</a>
+                <a href="/" class="text-sm font-medium text-white hover:text-aura-green transition-colors">Accueil</a>
+                <a href="/about.html" class="text-sm font-medium text-gray-400 hover:text-aura-green transition-colors">À propos</a>
+                <a href="/contact.html" class="text-sm font-medium text-gray-400 hover:text-aura-green transition-colors">Nous contacter</a>
             </nav>
 
             <button class="md:hidden text-gray-400 hover:text-white">
